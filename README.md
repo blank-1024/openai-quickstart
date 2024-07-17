@@ -152,3 +152,11 @@ Django Peng - pjt73651@email.com
 ### 2：改变query_base64_image_description方法的提示词描述，运行该代码块
 ### 3：调用并输出图文的content
 ### 4：使用Jupyter的标准输出渲染Markdown格式内容
+
+
+## homework2: open-translator的使用
+
+### 1：添加parse_argument(--target_language)以支持传递多种语种入参
+### 2：通过配置文件config.yaml修改api_key和model_url，或者配置在conda环境内
+### 3：通过pip install -r requirement.txt加载相关的依赖包
+### 4：执行命令：python ai_translator/main.py --model_type GLMModel --glm_model_url $GLM_MODEL_URL --book tests/test.pdf --language=中文
