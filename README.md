@@ -160,3 +160,9 @@ Django Peng - pjt73651@email.com
 ### 2：通过配置文件config.yaml修改api_key和model_url，或者配置在conda环境内
 ### 3：通过pip install -r requirement.txt加载相关的依赖包
 ### 4：执行命令：python ai_translator/main.py --model_type GLMModel --glm_model_url $GLM_MODEL_URL --book tests/test.pdf --language=中文
+
+## homework3: lang chains的扩展使用
+
+### 1：添加biology_template，chinese_language_template，computer_template三个老师的描述，并补充prompt_infos的提示信息
+### 2：依次执行代码片段
+### 3：根据问题种类依次验证langchain的可行性
