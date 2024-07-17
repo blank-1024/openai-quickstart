@@ -166,3 +166,12 @@ Django Peng - pjt73651@email.com
 ### 1：添加biology_template，chinese_language_template，computer_template三个老师的描述，并补充prompt_infos的提示信息
 ### 2：依次执行代码片段
 ### 3：根据问题种类依次验证langchain的可行性
+
+## homework4: sales chatbot的扩展使用
+
+### 1：使用chatGPT引导生成多份航运客服的对话话术，并保存到shipping_QA_data.txt文件；
+### 2：在shipping.ipynb文件中读取1的文件，并使用向量数据库Faiss持久化存储问答键值对；
+### 3：在shipping_chatbot.py文件中，初始化航运客服机器人并启动Gradio 服务
+### 4：当向量数据库中没有合适答案时，使用大语言模型能力LLM+prompt提示词来回答客户问题，而不是直接告诉用户我是一个AI机器人
+### 5：附带测试效果图
+![](chat_bot_test.png)
