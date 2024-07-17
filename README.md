@@ -159,7 +159,7 @@ Django Peng - pjt73651@email.com
 ### 1：添加parse_argument(--target_language)以支持传递多种语种入参
 ### 2：通过配置文件config.yaml修改api_key和model_url，或者配置在conda环境内
 ### 3：通过pip install -r requirement.txt加载相关的依赖包
-### 4：执行命令：python ai_translator/main.py --model_type GLMModel --glm_model_url $GLM_MODEL_URL --book tests/test.pdf --language=中文
+### 4：执行命令：python ai_translator/main.py --model_type OpenAIModel  --file_format markdown --book tests/test.pdf --openai_model gpt-3.5-turbo --language 日文
 
 ## homework3: lang chains的扩展使用
 
